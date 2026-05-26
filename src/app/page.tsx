@@ -46,7 +46,7 @@ export default function Home() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "linear-gradient(to bottom, rgba(11, 15, 25, 0.4), rgba(11, 15, 25, 0.95)), url('/images/la_passion_du_sentiment.png') center/cover no-repeatFixed",
+            background: "linear-gradient(to bottom, rgba(11, 15, 25, 0.4), rgba(11, 15, 25, 0.95)), url('/images/la_passion_du_sentiment.png') center/cover no-repeat fixed",
           textAlign: "center",
           padding: "0 24px",
         }}
