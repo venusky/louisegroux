@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import CartDrawer from "@/components/CartDrawer";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import NewsletterModal from "@/hooks/newsLetteerModal";
 
 export const metadata: Metadata = {
   title: "Louise Groux - Artiste Peintre - Art Animalier & Sacré",
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body>
+        <NewsletterModal />
         <CartProvider>
           <Navbar />
           <CartDrawer />
