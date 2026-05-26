@@ -97,7 +97,7 @@ export default function Footer() {
           Copyright © {new Date().getFullYear()}. Tous droits réservés - Louise Groux.
         </span>
         <div style={{ display: "flex", gap: "20px" }}>
-          <Link href="/contact" style={{ hover: "color: white" }}>Politique de confidentialité</Link>
+          <Link href="/contact">Politique de confidentialité</Link>
           <Link href="/contact">Mentions légales</Link>
           <Link href="/contact">Protection des données</Link>
         </div>
