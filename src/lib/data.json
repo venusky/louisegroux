@@ -1,0 +1,165 @@
+{
+  "oeuvres": [
+    {
+      "id": "elionne-1",
+      "title": "L'Ombre du Prédateur",
+      "category": "Le jardin d'Elionne",
+      "description": "Une vision mystérieuse du grand fauve à l'acrylique. Ce tableau saisit le regard perçant du félin tapis dans la pénombre.",
+      "technique": "Acrylique & Fusain sur toile",
+      "dimensions": "120 x 100 cm",
+      "price": 1200,
+      "year": 2024,
+      "imageUrl": "/images/le_jardin_delionne.png",
+      "sold": false,
+      "featured": true
+    },
+    {
+      "id": "ligne-1",
+      "title": "L'Ordre Harmonieux",
+      "category": "La Ligne d'Honneur",
+      "description": "Une exploration brute des lignes et du vide sur toile. Équilibre parfait entre le noir du charbon et la lueur de la matière.",
+      "technique": "Fusain & Acrylique sur toile",
+      "dimensions": "100 x 80 cm",
+      "price": 950,
+      "year": 2023,
+      "imageUrl": "/images/la_ligne_dhonneur.png",
+      "sold": false,
+      "featured": true
+    },
+    {
+      "id": "passion-1",
+      "title": "La Reine de Porcelaine",
+      "category": "La Passion du Sentiment",
+      "description": "Une figure souveraine prônant la principauté de l'idée dans un instant idéalisé. Pose classique avec drapé baroque.",
+      "technique": "Huile & Pigments sur toile",
+      "dimensions": "130 x 110 cm",
+      "price": 2100,
+      "year": 2024,
+      "imageUrl": "/images/la_passion_du_sentiment.png",
+      "sold": false,
+      "featured": true
+    },
+    {
+      "id": "sacre-1",
+      "title": "Mystère Divin",
+      "category": "Le Seigneur est avec Vous",
+      "description": "Une lecture éclairée du spirituel à travers des éclats d'or et des ombres médiévales. Travail minutieux de la lumière.",
+      "technique": "Huile & Feuilles d'or sur toile",
+      "dimensions": "140 x 120 cm",
+      "price": 3200,
+      "year": 2024,
+      "imageUrl": "/images/le_seigneur_est_avec_vous.png",
+      "sold": false,
+      "featured": true
+    },
+    {
+      "id": "trophee-1",
+      "title": "Mouflon Céleste",
+      "category": "Trophée",
+      "description": "Peinture d'inspiration spirituelle et végétale réalisée à la main sur un crâne de mouflon d'Europe. Pièce d'artisanat d'art unique.",
+      "technique": "Acrylique sur crâne de Mouflon",
+      "dimensions": "65 x 45 cm",
+      "price": 780,
+      "year": 2023,
+      "imageUrl": "/images/trophee_mouflon.png",
+      "sold": false,
+      "featured": true
+    }
+  ],
+  "goodies": [
+    {
+      "id": "twilly-1",
+      "title": "Twilly-band panthères",
+      "description": "Magnifique twilly en soie illustré de panthères sauvages. Un accessoire luxueux à nouer au poignet ou à votre sac à main.",
+      "price": 65,
+      "stock": 12,
+      "imageUrl": "/images/le_jardin_delionne.png",
+      "category": "Collaboration"
+    },
+    {
+      "id": "pochette-1",
+      "title": "Pochette perdrix et bécasse vert olive",
+      "description": "Pochette de costume haut de gamme en soie naturelle imprimée d'animaux. Parfait pour ajouter une touche artistique à vos vestes.",
+      "price": 65,
+      "stock": 8,
+      "imageUrl": "/images/la_ligne_dhonneur.png",
+      "category": "Collaboration"
+    },
+    {
+      "id": "pochette-2",
+      "title": "Pochette perdrix et bécasse orange",
+      "description": "Pochette élégante en soie naturelle aux tons chauds de la chasse d'automne.",
+      "price": 65,
+      "stock": 5,
+      "imageUrl": "/images/la_ligne_dhonneur.png",
+      "category": "Collaboration"
+    },
+    {
+      "id": "foulard-1",
+      "title": "Grand foulard Gipsy",
+      "description": "Foulard en soie grand format (90x90cm) aux motifs baroques et animaliers de l'artiste. Toucher ultra fluide.",
+      "price": 127,
+      "stock": 4,
+      "imageUrl": "/images/la_passion_du_sentiment.png",
+      "category": "Collaboration"
+    },
+    {
+      "id": "book-1",
+      "title": "Book Le Jardin d'Elionne",
+      "description": "Livre d'art relié présentant l'intégralité de la collection d'art animalier de Louise Groux. Papier de création mat de haute qualité.",
+      "price": 97,
+      "stock": 20,
+      "imageUrl": "/images/le_jardin_delionne.png",
+      "category": "Books"
+    },
+    {
+      "id": "book-2",
+      "title": "Book La Passion du Sentiment",
+      "description": "Recueil d'illustrations, de textes et de toiles sur le thème des figures souveraines.",
+      "price": 77,
+      "stock": 15,
+      "imageUrl": "/images/la_passion_du_sentiment.png",
+      "category": "Books"
+    },
+    {
+      "id": "book-3",
+      "title": "Book Le Seigneur est avec Vous",
+      "description": "Ouvrage dédié aux œuvres d'art sacré contemporain de l'artiste.",
+      "price": 87,
+      "stock": 18,
+      "imageUrl": "/images/le_seigneur_est_avec_vous.png",
+      "category": "Books"
+    }
+  ],
+  "evenements": [
+    {
+      "id": "event-1",
+      "title": "Art, Rock & Wine",
+      "description": "Soirée festive associant concert de rock indépendant, dégustation de vins du terroir et vernissage de la nouvelle collection de toiles de Louise Groux.",
+      "date": "2026-06-18",
+      "location": "Atelier de l'artiste, Bordeaux",
+      "imageUrl": "/images/la_passion_du_sentiment.png",
+      "link": "#"
+    },
+    {
+      "id": "event-2",
+      "title": "Salon de la chasse et de la faune sauvage",
+      "description": "Exposition de toiles et de trophées décorés dans le cadre du salon annuel de la faune sauvage. Rencontre et dédicaces de livres d'art.",
+      "date": "2026-09-12",
+      "location": "Parc des Expositions, Rambouillet",
+      "imageUrl": "/images/le_jardin_delionne.png",
+      "link": "#"
+    },
+    {
+      "id": "event-3",
+      "title": "Journées Européennes du Patrimoine",
+      "description": "Ouverture exceptionnelle de l'atelier de la Thibaudière avec exposition d'Art Sacré et de crânes peints.",
+      "date": "2026-09-20",
+      "location": "Château de la Thibaudière",
+      "imageUrl": "/images/le_seigneur_est_avec_vous.png",
+      "link": "#"
+    }
+  ],
+  "commandes": [],
+  "messages": []
+}
