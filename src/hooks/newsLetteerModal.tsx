@@ -1,6 +1,6 @@
 "use client";
 
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 export default function NewsletterModal() {
     const [open, setOpen] = useState(false);
@@ -54,8 +54,9 @@ export default function NewsletterModal() {
                         </h2>
 
                         <p style={styles.desc}>
-                            Inscrivez-vous à ma liste e-mail pour être directement informé(e)
-                            de toute mon actualité, mes expositions et mes aventures !
+                            Inscrivez-vous à ma liste e-mail pour être directement
+                            informé(e) de toute mon actualité, mes expositions et
+                            mes aventures !
                         </p>
 
                         <p style={styles.small}>À très vite</p>
@@ -77,11 +78,13 @@ export default function NewsletterModal() {
                                 type="checkbox"
                                 checked={news}
                                 onChange={(e) => setNews(e.target.checked)}
+                                style={styles.checkbox}
                             />
-                            <span>
-                Je souhaite être informé(e) régulièrement des prochaines
-                actualités de Louise Groux par email
-              </span>
+
+                            <span style={styles.checkboxText}>
+                                Je souhaite être informé(e) régulièrement des
+                                prochaines actualités de Louise Groux par email
+                            </span>
                         </label>
 
                         <label style={styles.checkboxRow}>
@@ -89,14 +92,16 @@ export default function NewsletterModal() {
                                 type="checkbox"
                                 checked={consent}
                                 onChange={(e) => setConsent(e.target.checked)}
+                                style={styles.checkbox}
                             />
-                            <span>
-                    Je déclare consentir à la collecte et au{" "}
-                                <span style={{color: "#F5B027"}}>
-                  traitement de mes données personnelles
-                </span>{" "}
+
+                            <span style={styles.checkboxText}>
+                                Je déclare consentir à la collecte et au{" "}
+                                <span style={{ color: "#F5B027" }}>
+                                    traitement de mes données personnelles
+                                </span>{" "}
                                 dans le cadre des conditions du site.
-              </span>
+                            </span>
                         </label>
 
                         <button onClick={handleSubmit} style={styles.btn}>
@@ -116,92 +121,120 @@ const styles: any = {
         background: "rgba(0,0,0,0.65)",
         display: "flex",
         justifyContent: "center",
-        alignItems: "flex-start",
-        paddingTop: "8vh",
+        alignItems: "center",
+        padding: "20px",
         zIndex: 9999,
-        transform: "translateY(-10px)",
-        opacity: 0.98
+        overflowY: "auto",
     },
 
     modal: {
         position: "relative",
-        width: "92%",
-        maxWidth: 900,
+        width: "100%",
+        maxWidth: "950px",
         background: "#0b0f19",
-        borderRadius: 8,
-        padding: 40,
+        borderRadius: "12px",
+        padding: "clamp(20px, 4vw, 45px)",
+        boxSizing: "border-box",
     },
 
     closeBtn: {
         position: "absolute",
-        top: 15,
-        right: 15,
+        top: "14px",
+        right: "14px",
         border: "none",
         background: "transparent",
-        fontSize: 18,
+        fontSize: "20px",
         cursor: "pointer",
         color: "#ffffff",
+        width: "36px",
+        height: "36px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
     },
 
     grid: {
         display: "grid",
-        gridTemplateColumns: "1fr 1fr",
-        gap: 40,
+        gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+        gap: "clamp(20px, 4vw, 50px)",
+        alignItems: "center",
     },
 
     left: {
         display: "flex",
         flexDirection: "column",
-        gap: 15,
+        gap: "18px",
     },
 
     title: {
-        fontSize: 26,
+        fontSize: "clamp(24px, 4vw, 40px)",
         fontWeight: 600,
         color: "#fff",
+        lineHeight: 1.2,
+        margin: 0,
     },
 
     desc: {
-        fontSize: 14,
+        fontSize: "clamp(14px, 2vw, 16px)",
         color: "#f5f5f5",
-        lineHeight: 1.6,
+        lineHeight: 1.8,
+        margin: 0,
     },
 
     small: {
-        fontSize: 13,
+        fontSize: "clamp(13px, 2vw, 15px)",
         color: "#f5f5f5",
+        margin: 0,
     },
 
     right: {
         display: "flex",
         flexDirection: "column",
-        gap: 15,
+        gap: "18px",
+        width: "100%",
     },
 
     input: {
-        padding: 12,
-        border: "1px solid #ddd",
-        borderRadius: 4,
-        fontSize: 14,
+        width: "100%",
+        padding: "14px 16px",
+        border: "1px solid #2d3445",
+        borderRadius: "6px",
+        fontSize: "15px",
         outline: "none",
+        background: "#111827",
+        color: "#fff",
+        boxSizing: "border-box",
     },
 
     checkboxRow: {
         display: "flex",
-        gap: 10,
-        fontSize: 12,
+        gap: "12px",
+        fontSize: "13px",
         color: "#f5f5f5",
         alignItems: "flex-start",
+        lineHeight: 1.6,
+    },
+
+    checkbox: {
+        marginTop: "3px",
+        flexShrink: 0,
+    },
+
+    checkboxText: {
+        flex: 1,
     },
 
     btn: {
-        marginTop: 10,
-        padding: 14,
+        marginTop: "8px",
+        width: "100%",
+        padding: "15px",
         background: "#F5B027",
         color: "white",
         border: "none",
-        borderRadius: 4,
+        borderRadius: "6px",
         fontWeight: 600,
+        fontSize: "14px",
         cursor: "pointer",
+        transition: "0.3s",
     },
 };

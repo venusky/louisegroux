@@ -108,7 +108,7 @@ export default function Navbar() {
                         className={styles.burger}
                         onClick={() => setMobileOpen(!mobileOpen)}
                     >
-                        {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+                        {mobileOpen ? <X size={22} color={'white'} /> : <Menu size={22} color={'white'} />}
                     </button>
                 </div>
             </header>
